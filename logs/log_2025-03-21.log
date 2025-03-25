@@ -1,0 +1,13 @@
+2025-03-21 18:47:51,223 - INFO - Data Processing Intialized
+2025-03-21 18:47:52,213 - INFO - Data loaded successfully for data processing
+2025-03-21 18:47:52,401 - INFO - Filtered Users successfully
+2025-03-21 18:47:53,523 - INFO - Scaling done for processing
+2025-03-21 18:47:53,659 - INFO - Encoded Done for Users and Anime
+2025-03-21 18:47:54,223 - INFO - Data Splitting is done
+2025-03-21 18:47:54,237 - INFO - user2user_encoded is saved in processed directory
+2025-03-21 18:47:54,248 - INFO - user2user_decoded is saved in processed directory
+2025-03-21 18:47:54,291 - INFO - anime2anime_encoded is saved in processed directory
+2025-03-21 18:47:54,339 - INFO - anime2anime_decoded is saved in processed directory
+2025-03-21 18:47:59,088 - INFO - All the data is saved..........
+2025-03-21 18:48:05,066 - INFO - the data is saved..........
+2025-03-21 18:48:05,066 - INFO - the data processing is successfull..........
