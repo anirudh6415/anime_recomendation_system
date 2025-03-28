@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://wallpaperaccess.com/download/anime-collage-538943');
+    background-size:auto;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.8);
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+button {
+    background: #ff4500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e63900;
+}
+
+.result-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}

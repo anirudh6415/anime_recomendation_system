@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-remote-ars
+['remote "dvc-remote-ars"']
+    url = gs://dvc-bucket-anime-rs/
