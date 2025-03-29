@@ -13,7 +13,7 @@ spec:
         app: anime-rs-app
     spec:
       containers:
-      - name: anime-rs-app-container
+      - name: anime-rs
         image: gcr.io/zinc-primer-453300-u7/anime-rs:latest
         ports:
         - containerPort: 5000  # Replace with the port your app listens on
