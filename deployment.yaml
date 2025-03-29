@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anime-rs-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: anime-rs-app
+  template:
+    metadata:
+      labels:
+        app: anime-rs-app
+    spec:
+      containers:
+      - name: anime-rs-app-container
+        image: gcr.io/zinc-primer-453300-u7/anime-rs:latest
+        ports:
+        - containerPort: 5000  # Replace with the port your app listens on
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: anime-rs-app-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: anime-rs-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
+
